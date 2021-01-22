@@ -1,0 +1,217 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 266512,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 14112,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 75720,
+            "byteOffset": 14112,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 75720,
+            "byteOffset": 89832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 50480,
+            "byteOffset": 165552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 50480,
+            "byteOffset": 216032,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 7056,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 6310,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -1.16817140579224,
+                -0.925527572631836,
+                0.38927498459816
+            ],
+            "max": [
+                -0.373215019702911,
+                -0.110490679740906,
+                1.17624521255493
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 6310,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 6310,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 6310,
+            "bufferView": 4,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "ao_met_rough_house_gloss",
+            "uri": "ao_met_rough_house_gloss.jpg"
+        },
+        {
+            "name": "house_diffuse.tga",
+            "uri": "house_diffuse.tga"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "ao_met_rough_house_gloss",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "Map #1",
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "materials": [
+        {
+            "name": "house",
+            "alphaMode": "BLEND",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicRoughnessTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "roughnessFactor": 1.0,
+                "metallicFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cube_014",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3,
+                        "TEXCOORD_1": 4
+                    },
+                    "indices": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Cube_014",
+            "translation": [
+                0.777657508850098,
+                -0.710709810256958,
+                -0.550759494304657
+            ],
+            "rotation": [
+                -0.707104742527008,
+                0.00170339376199991,
+                0.00170339376199991,
+                0.707104742527008
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ]
+}
